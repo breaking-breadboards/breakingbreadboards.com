@@ -6,6 +6,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg-color: #303d46;
+      --alt-color: #455764;
+      --fg-color: white;
+
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--fg-color);
+    }
+
     h1,
     h2,
     h3,
@@ -14,19 +24,90 @@
       font-weight: 400;
       font-style: normal;
     }
+
+    a {
+      color: inherit;
+    }
+
+    body {
+      text-align: center;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    header {
+      text-align: center;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    header #logo {
+      height: 300px;
+    }
+
+    header caption {
+      font-size: 20px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.57em 1.5em;
+      background: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
+      font-size: 0.8em;
+    }
+
+    .button.meetup {
+      background: #F64060;
+      font-weight: bold;
+    }
+
+    .upcoming {
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
   </style>
+  <link rel="icon" href="images/bb-logo-just-the-board.png" />
 </head>
 
 <body>
   <header>
-    <h1>Breaking Breadboards</h1>
-    <h2>Brighton</h2>
+    <img id="logo" src="images/bb-logo.png" alt="Breaking Breadboards" />
+    <h2>A meetup for electronics enthuisasts</h2>
   </header>
   <p>
-    Breaking Breadboards is a meetup in Brighton (UK) for electronics and hardware enthuisasts.
+    Breaking Breadboards is a welcoming group of tech tinkerers in Brighton (UK) interested in the intersection of
+    hardware and
+    software, no matter their experience level.
+  </p>
+  <div>
+    <a class="meetup button" href="https://www.meetup.com/breaking-breadboards/">Join us on Meetup</a>
+  </div>
+  <p>
+    At Breaking Breadboards meetups, you'll have the opportunity to connect with like-minded individuals, share your
+    projects, and learn from others. Whether you're interested in diving into the intricacies of microcontollers,
+    exploring the latest in hardware, or simply looking for inspiration for your next project, you'll find it here.
+  </p>
+  <p class="upcoming">
+    Next event: <b>7pm, May 15th 2024 - Show and Tell</b>
   </p>
   <p>
-    More to come soon.
+    Brought to you by...
+
+  <h3>Mike Brewer</h3>
+  <h3>Chetan Padia</h3>
+  <h3>Jon Durrant</h3>
+  <h3>Nikhil Dabas</h3>
+
+  and the incredible support of <a href="https://siliconbrighton.com">Silicon Brighton</a>
+  <br />
+  <br />
+  <a href="https://siliconbrighton.com"><img height="50" src="images/silicon-brighton-logo.png"
+      alt="Silicon Brighton" /></a>.
   </p>
 </body>
 
