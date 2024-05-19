@@ -30,6 +30,10 @@
       color: inherit;
     }
 
+    p {
+      text-align: left;
+    }
+
     body {
       text-align: center;
       max-width: 600px;
@@ -74,9 +78,31 @@
       margin-bottom: 2em;
     }
 
+    .upcoming,
+    .upcoming>p {
+      text-align: center;
+    }
+
+    .previous {
+      text-align: left;
+    }
+
     .previous ul {
       list-style-type: none;
       padding: 0;
+    }
+
+    .previous li {
+      margin-bottom: 0.25em;
+    }
+
+    .timestamp,
+    .speaker {
+      opacity: 0.67;
+    }
+
+    .speaker {
+      font-size: 0.9em;
     }
   </style>
   <link rel="icon" href="images/bb-logo-just-the-board.png" />
@@ -94,7 +120,7 @@
     <img id="logo" src="images/bb-logo.png" alt="Breaking Breadboards" />
     <h2>A meetup for electronics enthuisasts</h2>
   </header>
-  <p>
+  <p style="text-align: center;">
     Breaking Breadboards is a welcoming group of tech tinkerers in Brighton (UK) interested in the intersection of
     hardware and software, no matter their experience level.
   </p>
@@ -102,35 +128,73 @@
     <p>Next event: <b>7pm, July 31st 2024</b></p>
     <a class="meetup button" href="https://www.meetup.com/breaking-breadboards/">Join us on Meetup</a>
   </div>
-  <div class="previous">
-    <h3>Talks at the inaugural event, May 15th 2024</h3>
-    <ul>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY">0:00</a> Introduction - <a
-          href="https://www.linkedin.com/in/magarimike">Mike Brewer</a></li>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=630s">10:30</a> <a
-          href="https://labs.uk.barclays/locations/brighton/">Eagle Labs Brighton</a> - Rohun</li>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=780s">13:00</a> <a
-          href="https://siliconbrighton.com/">Silicon Brighton</a> - <a href="https://charliehula.com/">Charlie Hula</a>
-      </li>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=1050s">17:30</a> AI Song Creation - <a
-          href="https://duncanthomsen.com/">Ducan Thomsen</a></li>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=1980s">33:00</a> Robot Arm with ROS2 and Raspberry
-        Pi Pico - <a href="https://youtube.com/@drjonea">Jon Durrant</a></li>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=3240s">54:00</a> Programming Espruino and BBC
-        micro:bit - <a href="https://github.com/ndabas/">Nikhil Dabas</a></li>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=4080s">1:08:00</a> eInk Sales and IG Tracker - <a
-          href="https://www.linkedin.com/in/mattdoesmobile/">Matt Oakes</a></li>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=4740s">1:19:00</a> Game Boy DVI with Raspberry PI
-        Pico - <a href="https://remysharp.com">Rem</a></li>
-      <li><a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=6180s">1:43:00</a> RPi Wildlife Camera - <a
-          href="https://chetbox.com">Chetan Padia</a></li>
-    </ul>
-  </div>
   <p>
     At Breaking Breadboards meetups, you'll have the opportunity to connect with like-minded individuals, share your
     projects, and learn from others. Whether you're interested in diving into the intricacies of microcontollers,
     exploring the latest in hardware, or simply looking for inspiration for your next project, you'll find it here.
   </p>
+  <div class="previous">
+    <h3>Talks at the inaugural event, May 15th 2024</h3>
+    <ul>
+      <li>
+        <a class="timestamp" href="https://www.youtube.com/watch?v=ArUgIXI5WOY">0:00</a> Introduction
+        <br />
+        <span class="speaker"><a href="https://www.linkedin.com/in/magarimike">Mike Brewer</a></span>
+      </li>
+      <li>
+        <a class="timestamp" href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=630s">10:30</a> <a
+          href="https://labs.uk.barclays/locations/brighton/">Eagle Labs Brighton intro</a>
+        <br />
+        <span class="speaker"><a href="https://uk.linkedin.com/in/rohun-bouri-b07677a9">Rohun Bouri</a></span>
+      </li>
+      <li>
+        <a class="timestamp" href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=780s">13:00</a> <a
+          href="https://siliconbrighton.com/">Silicon Brighton intro</a>
+        <br />
+        <span class="speaker"><a href="https://charliehula.com/">Charlie Hula</a></span>
+      </li>
+      <li>
+        <a class="timestamp" href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=1050s">17:30</a> AI Song Creation
+        (Silicon Brighton/Brighton Fringe collaboration)
+        <br />
+        <span class="speaker"><a href="https://duncanthomsen.com/">Ducan Thomsen</a></span>
+      </li>
+      <li>
+        <a class="timestamp" href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=1980s">33:00</a> Controlling a
+        Robot Arm with ROS2 and Raspberry Pi Pico
+        <br />
+        <span class="speaker"><a href="https://youtube.com/@drjonea">Jon Durrant</a></span>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=3240s">54:00</a> Programming Espruino and BBC
+        micro:bit from a web browser
+        <br />
+        <span class="speaker"><a href="https://github.com/ndabas/">Nikhil Dabas</a></span>
+      </li>
+      <li>
+        <a class="timestamp" href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=4080s">1:08:00</a> Raspbery Pi Zero
+        eInk Sales and
+        social media tracker
+        <br />
+        <span class="speaker"><a href="https://mattoakes.net">Matt Oakes</a></span>
+      </li>
+      <li>
+        <a class="timestamp" href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=4740s">1:19:00</a> Game Boy arcade
+        machine Rasberry
+        Pi Pico DVI/HDMI display
+        Pico
+        <br />
+        <span class="speaker"><a href="https://remysharp.com">Remy Sharp</a></span>
+      </li>
+      <li>
+        <a class="timestamp" href="https://www.youtube.com/watch?v=ArUgIXI5WOY&amp;t=6180s">1:43:00</a> Rasberry Pi Zero
+        W Wildlife
+        Camera
+        <br />
+        <span class="speaker"><a href="https://chetbox.com">Chetan Padia</a></span>
+      </li>
+    </ul>
+  </div>
   <p>
     Brought to you by...
 
