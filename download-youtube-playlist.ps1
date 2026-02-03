@@ -43,7 +43,8 @@ foreach ($item in $allVideos) {
     # Format description for markdown (two spaces before newline for line breaks)
     $description = $description -replace '(\S)\s?\n(\S)', "`$1  `n`$2"
 
-    $isoDate = Get-Date $publishedAt -UFormat "%F"
+    # Subtract a day from the publish date because I guess they hit publish the next day?
+    $isoDate = Get-Date ($publishedAt.AddDays(-1)) -UFormat "%F"
     $videoUrl = "https://www.youtube.com/watch?v=$videoId"
 
     # Create a safe filename from the title
