@@ -1,0 +1,50 @@
+name: Update content
+
+on:
+    workflow_dispatch:
+
+jobs:
+    update-content:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+            pull-requests: write
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v5
+              with:
+                  # We need the HEAD, not the specific commit, so we can add a commit on top.
+                  ref: ${{ github.ref_name }}
+
+            - name: Get Meetup.com events
+              shell: pwsh
+              run: .\download-events.ps1
+
+            - name: Get YouTube playlist videos
+              shell: pwsh
+              run: .\download-youtube-playlist.ps1
+              env:
+                  YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+
+            - name: Commit results
+              run: |
+                  git config --global user.name "Breaking Breadboards Bot"
+                  git config --global user.email "bot@breakingbreadboards.com"
+
+                  if git diff --exit-code; then
+                    echo "No changes to content"
+                    exit 0
+                  fi
+
+                  branchName="content-update-$(date -u +'%Y-%m-%d-%H%M')"
+                  commitMessage="Automated content update - $(date -u +'%Y-%m-%d %H:%M UTC')"
+                  git checkout -b $branchName
+                  git add . && git commit -am "$commitMessage"
+                  git push origin $branchName
+
+                  gh pr create \
+                    --title "$commitMessage" \
+                    --body "$commitMessage" \
+                    --head $branchName \
+                    --base main
