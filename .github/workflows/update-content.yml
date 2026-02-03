@@ -32,7 +32,8 @@ jobs:
                   git config --global user.name "Breaking Breadboards Bot"
                   git config --global user.email "bot@breakingbreadboards.com"
 
-                  if git diff --exit-code; then
+                  git add .
+                  if git diff --cached --exit-code; then
                     echo "No changes to content"
                     exit 0
                   fi
@@ -40,7 +41,7 @@ jobs:
                   branchName="content-update-$(date -u +'%Y-%m-%d-%H%M')"
                   commitMessage="Automated content update - $(date -u +'%Y-%m-%d %H:%M UTC')"
                   git checkout -b $branchName
-                  git add . && git commit -am "$commitMessage"
+                  git commit -m "$commitMessage"
                   git push origin $branchName
 
                   gh pr create \
