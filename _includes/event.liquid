@@ -1,0 +1,31 @@
+---
+layout: base.liquid
+---
+<h1>{{ title }}</h1>
+<h2><time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></h2>
+
+{% if tags contains "upcoming_events" %}
+<a href="{{ link }}" class="button">Join us on Meetup</a>
+{% endif %}
+
+{% if tags contains "previous_events" %}
+<iframe width="560" height="315" src="{{ link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% endif %}
+
+{{ content }}
+
+{% assign previousPost = collections.events | getPreviousCollectionItem %}
+{% assign nextPost = collections.events | getNextCollectionItem %}
+
+<p>
+{% if previousPost %}
+Previous Event:
+<time datetime="{{ previousPost.date | htmlDateString }}">{{ previousPost.date | htmlDateString }}</time>:
+<a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+{% endif %}<br>
+{% if nextPost %}
+Next Event:
+<time datetime="{{ nextPost.date | htmlDateString }}">{{ nextPost.date | htmlDateString }}</time>:
+<a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+{% endif %}
+</p>
