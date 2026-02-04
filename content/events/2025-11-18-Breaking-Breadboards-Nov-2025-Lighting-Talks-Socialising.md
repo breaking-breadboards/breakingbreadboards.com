@@ -10,15 +10,16 @@ This is the perfect opportunity to share your Raspberry PI, Arduino, microcontro
 
 Our current talks are as follows:
 
-🚥 Mains Powered Traffic Light Timer - Mike Brewer
-📺 HMIs: Drag and drop UI design for microcontrollers - Nikhil Dabas
+🚥 Mains Powered Traffic Light Timer - Mike Brewer  
+📺 HMIs: Drag and drop UI design for microcontrollers - Nikhil Dabas  
 💡 The Magic of Blinking Lights - Daz
 
 Projects can be of any complexity, from beginner to product design. They can also be in any phase of development from concept to completion. All have value and will captivate us all. Don't be shy, share your project.
 
-Find upcoming Breaking Breadboard events:  https://www.meetup.com/breaking-breadboards/events/  
-#techevent #techmeetup #techtalk #ShowAndTell  
-⭐ JOIN OUR COMMUNITY ⭐  
-We work hand-in-hand with Brighton's tech community to provide individuals with free opportunities for networking, training, up-skilling and development.  
-No matter your experience level, there’s a place for you at Silicon Brighton, so join us today!  
+Find upcoming Breaking Breadboards events:  https://www.meetup.com/breaking-breadboards/events/
+
+#techevent #techmeetup #techtalk #ShowAndTell
+
+## ⭐ JOIN OUR COMMUNITY ⭐  
+We work hand-in-hand with Brighton's tech community to provide individuals with free opportunities for networking, training, up-skilling and development. No matter your experience level, there’s a place for you at Silicon Brighton, so join us today!  
 👉 https://siliconbrighton.com/

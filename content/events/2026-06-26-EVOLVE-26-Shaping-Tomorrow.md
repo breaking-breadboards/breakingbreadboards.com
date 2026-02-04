@@ -41,4 +41,4 @@ Hack the future: Real-time innovation in our coding challenge. Compete to solve 
 * Get 50% off the Early Bird ticket price via the Breaking Breadboards community by using this discount code: *BREAKINGBREADBOARDS*
 * Get your ticket here: [https://ticketpass.org/event/ESVWOM/evolve-26-27](https://ticketpass.org/event/ESVWOM/evolve-26-27)
 
-**Find out more about EVOLVE on the official website:** \*[evolve.siliconbrighton.com](http://evolve.siliconbrighton.com/)
+**Find out more about EVOLVE on the official website:** [evolve.siliconbrighton.com](http://evolve.siliconbrighton.com/)
