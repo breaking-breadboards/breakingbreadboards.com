@@ -1,0 +1,52 @@
+---
+title: Breaking Breadboards Brighton
+layout: base.liquid
+---
+<header>
+  <h2>A meetup for electronics enthuisasts</h2>
+  <p>
+  Breaking Breadboards is a welcoming group of tech tinkerers in Brighton (UK) interested in the intersection of
+  hardware and software, no matter their experience level.
+  </p>
+</header>
+<hr>
+<section>
+  <p>
+  {%- assign next = collections.upcoming_events[0] -%}
+  Next event:
+  <time datetime="{{ next.date | htmlDateString }}">{{ next.date | readableDate }}</time>:
+  <a href="{{ next.url }}">{{ next.data.title }}</a></p>
+  <p><a href="{{ next.data.link }}" class="button">Join us on Meetup</a></p>
+</section>
+<section>
+  <p>In the meantime come and chat on <b>#breaking-breadboards</b> on Silicon Brighton's Slack</p>
+  <a class="button" href="https://join.slack.com/t/silicon-brighton/shared_invite/zt-2rfg1b62d-JeOYQX5UYtgUcQkAvHGefQ">Join us on Slack</a>
+  <p>
+  At Breaking Breadboards meetups, you'll have the opportunity to connect with like-minded individuals, share your
+  projects, and learn from others. Whether you're interested in diving into the intricacies of microcontollers,
+  exploring the latest in hardware, or simply looking for inspiration for your next project, you'll find it here.
+  </p>
+</section>
+<hr>
+<section>
+  <h2>Upcoming events</h2>
+  {%- for event in collections.upcoming_events -%}
+  <h3>
+    <time datetime="{{ event.date | htmlDateString }}">{{ event.date | readableDate }}</time>:
+    <a href="{{ event.url }}">{{ event.data.title }}</a>
+  </h3>
+  <p>{{ event.content }}</p>
+  {%- endfor -%}
+</section>
+<hr>
+<section>
+  <h2>Previous events</h2>
+  <ul>
+  {%- for event in collections.previous_events reversed -%}
+  <li>
+    <time datetime="{{ event.date | htmlDateString }}">{{ event.date | readableDate }}</time>:
+    <a href="{{ event.url }}">{{ event.data.title }}</a>
+  </li>
+  {%- endfor -%}
+  </ul>
+</section>

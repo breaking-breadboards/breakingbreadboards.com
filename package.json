@@ -1,0 +1,16 @@
+{
+  "name": "breakingbreadboards.com",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve --quiet"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "description": "The breakingbreadboards.com website",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "luxon": "^3.7.2"
+  }
+}
