@@ -2,7 +2,7 @@
 title: 'Breaking Breadboards - Launch Event - Show and Tell'
 link: https://www.youtube.com/embed/BQSYs0KcZD8
 thumbnail: https://i.ytimg.com/vi/BQSYs0KcZD8/hqdefault.jpg
-date: 2024-06-17
+date: 2024-05-15
 tags:
   - previous_events
 ---
