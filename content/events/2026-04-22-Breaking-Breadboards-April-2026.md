@@ -5,7 +5,6 @@ date: 2026-04-22
 tags:
   - upcoming_events
 ---
-Breaking Breadboards
 The Breaking Breadboards team are excited to announce our, **April 22nd Event at Freedom Works in Brighton**. This is the perfect opportunity for tech hardware enthusiasts in Brighton and beyond to connect, and share their passion for all things tinkering!
 
 Whether you’re into Raspberry Pi, Arduino, modifying Game Boys, building robots, or any other hardware-based projects, this event is for you. From seasoned professionals to complete beginners, everyone is welcome.
