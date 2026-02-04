@@ -2,7 +2,7 @@
 title: 'Show and Tell - Hardware Social | Breaking Breadboards'
 link: https://www.youtube.com/embed/4izBDkC_rAE
 thumbnail: https://i.ytimg.com/vi/4izBDkC_rAE/hqdefault.jpg
-date: 2024-09-01
+date: 2024-07-17
 tags:
   - previous_events
 ---
