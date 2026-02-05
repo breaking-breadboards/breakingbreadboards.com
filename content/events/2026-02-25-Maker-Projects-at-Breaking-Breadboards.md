@@ -30,7 +30,7 @@ Timeline:
 Thank you to all the companies who help us put these events on:
 
 * [Yair Energy](https://yair.energy/) for helping us fund the event
-* [Sopro](sopro.io). for helping us fund the event
+* [Sopro](https://sopro.io/). for helping us fund the event
 * [Freedom Works](https://www.freedomworks.space/) for hosting us
 * [Silicon Brighton](https://siliconbrighton.com/) for helping us run, marketing and AV support
 
