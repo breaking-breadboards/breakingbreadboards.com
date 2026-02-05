@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://breakingbreadboards.com/sitemap.xml
