@@ -8,7 +8,7 @@ tags:
 Breaking Breadboards
 **The meetup of all meetups is back!**
 
-🎟️ Buy your tickets here: [https://ticketpass.org/event/ESVWOM/evolve-26-27](https://ticketpass.org/event/ESVWOM/evolve-26-27)
+[🎟️ Buy your tickets here](https://ticketpass.org/event/ESVWOM/evolve-26-27)
 
 **50% discount code for the Breaking Breadboards community: *BREAKINGBREADBOARDS***
 
@@ -39,6 +39,6 @@ Hack the future: Real-time innovation in our coding challenge. Compete to solve 
 
 * Early Bird tickets: £7 (students) or £30 (regular)
 * Get 50% off the Early Bird ticket price via the Breaking Breadboards community by using this discount code: *BREAKINGBREADBOARDS*
-* Get your ticket here: [https://ticketpass.org/event/ESVWOM/evolve-26-27](https://ticketpass.org/event/ESVWOM/evolve-26-27)
+* [Get your ticket here](https://ticketpass.org/event/ESVWOM/evolve-26-27)
 
 **Find out more about EVOLVE on the official website:** [evolve.siliconbrighton.com](http://evolve.siliconbrighton.com/)
