@@ -10,7 +10,7 @@ AI and Raspberry Pi come to Breaking Breadboards. Yes we are delighted to have N
 The full event agenda is:  
 18:30 - Registration, Pizza and Networking  
 18:50 - Introductions  
-19:00 - "AI workloads on Raspberry Pi - Why and How": Naushir Patuck  
+19:00 - "AI workloads on Raspberry Pi - Why and How": [Naushir Patuck](https://www.linkedin.com/in/naushir-patuck-b9a7313/)  
 19:40 - In-person presentation, to be announced  
 20:20 - Closing Thoughts
 
