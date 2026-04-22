@@ -11,7 +11,7 @@ The full event agenda is:
 18:30 - Registration, Pizza and Networking  
 18:50 - Introductions  
 19:00 - "AI workloads on Raspberry Pi - Why and How": [Naushir Patuck](https://www.linkedin.com/in/naushir-patuck-b9a7313/)  
-19:40 - In-person presentation, to be announced  
+19:40 - "PCB Design with the Raspberry Pi Pico, RP2040 & RP2350 Microcontrollers": [Sam Tween](https://www.linkedin.com/in/samuel-tween-723391212/)  
 20:20 - Closing Thoughts
 
 We are once again being hosted at **Freedom Works in Brighton**. This is the perfect opportunity for tech hardware enthusiasts in Brighton and beyond to connect, and share their passion for all things tinkering!
