@@ -17,15 +17,15 @@ Four makers share their projects in embedded systems, robotics, and microcontrol
 * **Breaking Breadboards at Evolve26**: [Mike Brewer](https://www.linkedin.com/in/magarimike/)  
   We will have an area again at Evolve26 on 26-Jun-26 at the Brighton Centre. We would like your thoughts on how to make this a truly community event. Remeber you can book your ticket with 50% off by using the code **`BREAKINGBREADBOARDS`** [https://evolve.siliconbrighton.com/](https://evolve.siliconbrighton.com/)
 
-Timeline:
-- 18:30 Pizza, soft drinks and networking
-- 18:50 Introdutions
-- 19:00 **Fun with Furbies**
-- 19:20 **When Machines Sing**
-- 19:40 **Drifting with Dignity**
-- 20:00 Q&A With the Panel
-- 20:10 **Breaking Breadboards at Evolve26**
-- 20:30 Close
+⏰ Timestamps  
+0:00 - Intro  
+5:34 - "Fun with Furbies" with Mike Brewer  
+29:44 - "When Machines Sing" with Richard Vahrman  
+54:22 - "Drifting with Dignity" with Jon Durrant  
+1:11:51 - Panel Q&A  
+1:42:59 - EVOLVE [26]  
+Find upcoming Breaking Breadboards events: https://www.meetup.com/breaking-breadboards/  
+#techevent #hardware #software #robotics #techmeetup 
 
 Thank you to all the companies who help us put these events on:
 
@@ -35,3 +35,9 @@ Thank you to all the companies who help us put these events on:
 * [Silicon Brighton](https://siliconbrighton.com/) for helping us run, marketing and AV support
 
 If you would like to present your project, please get in touch with our organisers. Or why not bring a project along for our show-and-tell table?
+
+⭐ JOIN OUR COMMUNITY ⭐  
+We work hand-in-hand with Brighton's tech community to provide individuals with free opportunities for networking, training, up-skilling and development.  
+No matter your experience level, there’s a place for you at Silicon Brighton, so join us today!  
+👉 https://siliconbrighton.com/  
+#BrightonAI #AIforGood #ArtificialIntelligence
