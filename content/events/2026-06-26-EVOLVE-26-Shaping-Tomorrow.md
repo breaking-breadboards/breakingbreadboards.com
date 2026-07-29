@@ -1,6 +1,5 @@
 ---
 title: 'EVOLVE [26]: Shaping Tomorrow'
-link: https://www.meetup.com/breaking-breadboards/events/312381301/
 date: 2026-06-26
 tags:
   - previous_events
