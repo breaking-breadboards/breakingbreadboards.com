@@ -3,42 +3,28 @@ title: 'EVOLVE [26]: Shaping Tomorrow'
 link: https://www.meetup.com/breaking-breadboards/events/312381301/
 date: 2026-06-26
 tags:
-  - upcoming_events
+  - previous_events
 ---
 Breaking Breadboards
-**The meetup of all meetups is back!**
+**The meetup of all meetups returned to Brighton!**
 
-[🎟️ Buy your tickets here](https://evolve.siliconbrighton.com/tickets)
+EVOLVE [26]: Shaping Tomorrow was a one-day event in Brighton that brought together the brightest minds in technology, business, and education.
 
-**50% discount code for the Breaking Breadboards community: *BREAKINGBREADBOARDS***
-
-\* (Please note, clicking "Attend" via Meetup does not confirm your attendance – you need to buy your ticket via the link above)
-
-\-\-\-\-\- // \-\-\-\-\-
-
-EVOLVE [26]: Shaping Tomorrow is a one-day event in Brighton that brings together the brightest minds in technology, business, and education.
-
-Join us for a day of discovery, connect with top employers, explore ground-breaking technologies, and learn how tech can transform industries and enrich lives.
+A day of discovery, with opportunities to connect with top employers, explore ground-breaking technologies, and learn how tech can transform industries and enrich lives.
 
 ***Exhibitions***
-Explore the future of tech at our innovation showcase. Dive into cutting-edge solutions as companies reveal their latest tech breakthroughs, inspiring ideas, and career opportunities.
+The future of tech was on show at the innovation showcase, with companies revealing their latest tech breakthroughs, inspiring ideas, and career opportunities.
 
 ***Keynotes & Panels***
-Keynotes from tech's leading minds. Hear from industry trailblazers and thought leaders as they explore the future of technology, social impact, and business transformation.
+Keynotes from tech's leading minds explored the future of technology, social impact, and business transformation, with industry trailblazers and thought leaders sharing their insights.
 
 ***Meetup sessions that drive innovation***
-Join passionate developers, data scientists, and designers for interactive sessions on the latest trends in tech, from AI to UX and everything in between.
+Passionate developers, data scientists, and designers gathered for interactive sessions on the latest trends in tech, from AI to UX and everything in between.
 
 ***Workshops***
-Skill up, innovate, and excel: hands-on workshops. Gain practical expertise in coding, cybersecurity, and product design, or polish your career skills with focused workshops led by industry pros.
+Hands-on workshops covered coding, cybersecurity, and product design, with focused sessions on career skills led by industry pros.
 
 ***Hackathon***
-Hack the future: Real-time innovation in our coding challenge. Compete to solve real-world problems with code and creativity in an exciting hackathon, with rewards for the best teams and ideas.
-
-**Get your Early Bird ticket today!**
-
-* Early Bird tickets: £7 (students) or £30 (regular)
-* Get 50% off the Early Bird ticket price via the Breaking Breadboards community by using this discount code: *BREAKINGBREADBOARDS*
-* [Get your ticket here](https://evolve.siliconbrighton.com/tickets)
+Teams competed to solve real-world problems with code and creativity in an exciting hackathon, with rewards for the best teams and ideas.
 
 **Find out more about EVOLVE on the official website:** [evolve.siliconbrighton.com](http://evolve.siliconbrighton.com/)
