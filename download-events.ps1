@@ -5,6 +5,9 @@ param(
   [switch]$Force = $false
 )
 
+Set-StrictMode -Version Latest
+$ErrorActionPreference = 'Stop'
+
 # https://datatracker.ietf.org/doc/html/rfc5545
 
 function UnescapeICalContent {

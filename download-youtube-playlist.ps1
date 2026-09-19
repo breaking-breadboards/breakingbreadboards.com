@@ -7,6 +7,9 @@ param(
   [switch]$Force = $false
 )
 
+Set-StrictMode -Version Latest
+$ErrorActionPreference = 'Stop'
+
 New-Item -ItemType Directory -Path $OutputDir -Force | Out-Null
 
 $allVideos = @()
@@ -28,7 +31,7 @@ do {
 
   $response = Invoke-RestMethod -Uri $url -Method Get -Body $params
   $allVideos += $response.items
-  $nextPageToken = $response.nextPageToken
+  $nextPageToken = if ($response.PSObject.Properties.Name -contains 'nextPageToken') { $response.nextPageToken } else { $null }
 
   Write-Host "Fetched $($response.items.Count) videos (Total: $($allVideos.Count))"
 
