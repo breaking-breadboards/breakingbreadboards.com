@@ -1,14 +1,18 @@
 ---
-title: 'Breaking Breadboards September-2026'
-link: https://www.meetup.com/breaking-breadboards/events/311868032/
+title: '4 Incredible Projects at Breaking Breadboards'
+link: https://www.youtube.com/embed/HHAIE9Bc78Y
+thumbnail: https://i.ytimg.com/vi/HHAIE9Bc78Y/hqdefault.jpg
 date: 2026-09-01
 tags:
-  - upcoming_events
+  - previous_events
 ---
-The Breaking Breadboards team are excited to announce our, **September 1st Event at Freedom Works in Brighton**. This is the perfect opportunity for tech hardware enthusiasts in Brighton and beyond to connect, and share their passion for all things tinkering!
+Four, yes four projects from our community at our September 1st Event at Freedom Works in Brighton. It was the perfect opportunity for tech hardware enthusiasts in Brighton and beyond to connect, and share their passion for all things tinkering!
 
-Whether you’re into Raspberry Pi, Arduino, modifying Game Boys, building robots, or any other hardware-based projects, this event is for you. From seasoned professionals to complete beginners, everyone is welcome.
-
-The event is **hybrid**, so while we’d love to see you in person, you can also join us live on YouTube if you can’t make it to Brighton.
-
-If you have any questions or want to get involved, please reach out.
+Agenda:
+- Introductions: BB Team
+- "Chasing Stars at 0.000696 RPM: Engineering an Open-Source Smart Telescope Mount", Matt Withers
+- "3D design using Claude", Tony Waite
+- "Messaging for Anarchists: Coordination Without Permission", Keith Marston
+- "Alien Autopsy", Mike Brewer
+- Panel Q&A
+- Closing Thoughts: BB Team
