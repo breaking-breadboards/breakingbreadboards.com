@@ -2,6 +2,20 @@
 
 The website is built with [Eleventy](https://www.11ty.dev/).
 
+## Getting started
+
+Run a local dev server with live reload at http://localhost:8080/:
+
+```sh
+npm start
+```
+
+Build the static site into `_site/`:
+
+```sh
+npm run build
+```
+
 ## Updates
 
 There are two scripts which can be run using GitHub Actions:
