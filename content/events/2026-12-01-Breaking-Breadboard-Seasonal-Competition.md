@@ -5,11 +5,17 @@ date: 2026-12-01
 tags:
   - upcoming_events
 ---
-We launched a competition to show the magic of the winter festival season. With real prizes too! At this event, each of the entries will pitch their build, and the audience and judges will crown a winner.
+You don’t need to build anything to be part of our **Winter Build Competition**. You just need to turn up, grab a slice of pizza and help crown the winner.
 
-Each entry will show the full Seasonal Build for Winter Magic in a 5 minute pitch in person at the event. Entries can be from individuals or groups. The entry should include a Microcontroller or SBC computer as it must include some Software/Firmware as well as some hardware (LEDs for example).
+On **Tuesday 1 December**, local makers will each have five minutes to show off a build that captures the magic of the winter season. Here’s the line-up so far:
 
-The prizes include a RPI5, AI Hat 2 and 10" Touch Screen 2. Notification of entry must be received by the event organisers by 17-Nov-2026 to secure a presentation slot.
+- **Christmas Gaslight**: Tudor Jenkins. Festive lamps, or something more devious? You’ll have to come and see.
+- **A MeshCore XMAS Jukebox**: Chris Hill. Christmas tunes, delivered over a mesh network.
+- **Santa’s Lightspeed Speedo**: Alex Khosla. Just how fast does that sleigh need to go?
+- **Peace Statue Casino**: Richard Vahrman. A Brighton & Hove seafront landmark meets a game of chance.
+- **Santa’s Sleigh Flight Simulator**: Sam Tween. Ever wanted to take the reins?
+
+The **audience votes alongside the judges**, so your opinion helps decide who takes home a **Raspberry Pi 5 bundle of joy**.
 
 Agenda:  
 18:30 Pizza and Chat  
@@ -18,6 +24,6 @@ Agenda:
 20:20 Winner(s) Announced  
 20:30 Closing Thoughts: BB Team
 
-Whether you’re into Raspberry Pi, Arduino, modifying Game Boys, building robots, or any other hardware-based projects, this event is for you. From seasoned professionals to complete beginners, everyone is welcome.
+It’s at **Freedom Works, Black Lion Street, Brighton**. Full details are shared when you RSVP. Beginners, the curious and the just-here-for-the-pizza are all very welcome.
 
 If you have any questions or want to get involved, please reach out.
