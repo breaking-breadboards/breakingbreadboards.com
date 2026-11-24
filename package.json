@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npx @11ty/eleventy",
-    "start": "npx @11ty/eleventy --serve --quiet"
+    "start": "npx @11ty/eleventy --serve --quiet",
+    "update": "pwsh -File ./update.ps1"
   },
   "author": "",
   "license": "Apache-2.0",
