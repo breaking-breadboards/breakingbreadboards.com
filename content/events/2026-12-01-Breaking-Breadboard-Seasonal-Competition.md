@@ -1,5 +1,5 @@
 ---
-title: 'Breaking Breadboard Seasonal Competition'
+title: 'Breaking Breadboards Seasonal Competition'
 date: 2026-12-01
 meetup: https://www.meetup.com/breaking-breadboards/events/316621766/
 ---
