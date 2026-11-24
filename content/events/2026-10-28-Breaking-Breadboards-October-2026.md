@@ -1,10 +1,7 @@
 ---
 title: 'Breaking Breadboards October 2026'
-link: https://www.youtube.com/embed/iX69gOmhfsc
-thumbnail: https://i.ytimg.com/vi/iX69gOmhfsc/hqdefault.jpg
 date: 2026-10-28
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=iX69gOmhfsc
 ---
 Our **October 28th Event at Freedom Works in Brighton** was the perfect opportunity for tech hardware enthusiasts in Brighton and beyond to connect, and share their passion for all things tinkering!
 

@@ -1,8 +1,6 @@
 ---
 title: 'EVOLVE [26]: Shaping Tomorrow'
 date: 2026-06-26
-tags:
-  - previous_events
 ---
 Breaking Breadboards
 **The meetup of all meetups returned to Brighton!**

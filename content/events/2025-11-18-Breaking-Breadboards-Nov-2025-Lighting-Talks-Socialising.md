@@ -1,8 +1,6 @@
 ---
 title: 'Breaking Breadboards Nov-2025 - Lighting Talks / Socialising'
 date: 2025-11-18
-tags:
-  - previous_events
 ---
 The Breaking Breadboards team are excited to announce our, Nov 18 Event at Freedom Works in Brighton. A lighting talks and socialising event as we head into the holiday season. This is the perfect opportunity for tech hardware enthusiasts in Brighton and beyond to connect and share their passion for all things tinkering!
 

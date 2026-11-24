@@ -1,10 +1,7 @@
 ---
 title: 'Festive Tech Projects | Breaking Breadboards'
-link: https://www.youtube.com/embed/pCb0MGMpUI8
-thumbnail: https://i.ytimg.com/vi/pCb0MGMpUI8/hqdefault.jpg
 date: 2024-11-28
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=pCb0MGMpUI8
 ---
 Breaking Breadboards' final event of 2024 brought tech hardware enthusiasts together for an evening of creativity, connection, and community-led lightning talks, celebrating passion and sparking fresh ideas for all.
 

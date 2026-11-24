@@ -1,10 +1,7 @@
 ---
 title: 'Maker Projects at Breaking Breadboards'
-link: https://www.youtube.com/embed/L8v5BV-W7F4
-thumbnail: https://i.ytimg.com/vi/L8v5BV-W7F4/hqdefault.jpg
 date: 2026-02-25
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=L8v5BV-W7F4
 ---
 Four makers share their projects in embedded systems, robotics, and microcontroller electronics. Come, listen, ask questions, and learn in a friendly and entertaining environment. Demos can go wrong, so enjoy the jeopardy as our presenters tell their story.
 

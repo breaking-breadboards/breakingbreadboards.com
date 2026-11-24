@@ -4,12 +4,18 @@ layout: base.liquid
 <h1>{{ title }}</h1>
 <h2><time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time></h2>
 
-{% if tags contains "upcoming_events" and link %}
-<a href="{{ link }}" class="button">Join us on Meetup</a>
+{%- assign upcoming = date | isUpcoming -%}
+{%- assign videoId = youtube | youtubeId -%}
+
+{% if upcoming and meetup %}
+<a href="{{ meetup }}" class="button">Join us on Meetup</a>
+{% endif %}
+{% if upcoming and videoId %}
+<a href="https://www.youtube.com/watch?v={{ videoId }}" class="button">Watch live on YouTube</a>
 {% endif %}
 
-{% if tags contains "previous_events" and link %}
-<iframe width="560" height="315" src="{{ link }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% if videoId %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ videoId }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 {% endif %}
 
 {{ content }}

@@ -1,9 +1,7 @@
 ---
 title: 'Breaking Breadboard Seasonal Competition'
-link: https://www.meetup.com/breaking-breadboards/events/316621766/
 date: 2026-12-01
-tags:
-  - upcoming_events
+meetup: https://www.meetup.com/breaking-breadboards/events/316621766/
 ---
 You don’t need to build anything to be part of our **Winter Build Competition**. You just need to turn up, grab a slice of pizza and help crown the winner.
 

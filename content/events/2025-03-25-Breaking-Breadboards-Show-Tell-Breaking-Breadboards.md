@@ -1,10 +1,7 @@
 ---
 title: 'Breaking Breadboards Show & Tell | Breaking Breadboards'
-link: https://www.youtube.com/embed/FTFTAcNm8Sg
-thumbnail: https://i.ytimg.com/vi/FTFTAcNm8Sg/hqdefault.jpg
 date: 2025-03-25
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=FTFTAcNm8Sg
 ---
 Breaking Breadboards' March event at Freedom Works was a hardware-focused Show and Tell, featuring four fantastic project presentations and a community table for informal displays.
 

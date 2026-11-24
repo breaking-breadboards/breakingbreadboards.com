@@ -1,10 +1,7 @@
 ---
 title: 'AI Comes to Breaking Breadboards'
-link: https://www.youtube.com/embed/MAegc8KAJHU
-thumbnail: https://i.ytimg.com/vi/MAegc8KAJHU/hqdefault.jpg
 date: 2026-04-22
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=MAegc8KAJHU
 ---
 AI and Raspberry Pi come to Breaking Breadboards. Yes we are delighted to have Naushir Patuck, an engineer from Raspberry Pi with us virtually to share their AI journey.
 

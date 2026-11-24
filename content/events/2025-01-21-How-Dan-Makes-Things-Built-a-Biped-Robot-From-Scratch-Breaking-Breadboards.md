@@ -1,10 +1,7 @@
 ---
 title: 'How Dan Makes Things Built a Biped Robot From Scratch | Breaking Breadboards'
-link: https://www.youtube.com/embed/dQ3WG0pJU5c
-thumbnail: https://i.ytimg.com/vi/dQ3WG0pJU5c/hqdefault.jpg
 date: 2025-01-21
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=dQ3WG0pJU5c
 ---
 Earlier this week, Breaking Breadboards kicked off 2025 with an incredible event at Freedom Works in Brighton. They were thrilled to host Dan Nicholson from @DanMakesThings, along with his amazing Biped Robot 🤖 Dan shared the fascinating story behind building the robot and the challenges he overcame!
 

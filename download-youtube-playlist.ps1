@@ -41,7 +41,6 @@ foreach ($item in $allVideos) {
   $videoId = $item.contentDetails.videoId
   $publishedAt = $item.contentDetails.videoPublishedAt
   $title = $item.snippet.title
-  $thumbnailUrl = $item.snippet.thumbnails.high.url
 
   $description = $item.snippet.description -replace '\r\n', "`n"
   # Format description for markdown (two spaces before newline for line breaks)
@@ -49,12 +48,21 @@ foreach ($item in $allVideos) {
 
   # Subtract a day from the publish date because I guess they hit publish the next day?
   $isoDate = Get-Date ($publishedAt.AddDays(-1)) -UFormat "%F"
-  $videoUrl = "https://www.youtube.com/embed/$videoId"
+  $videoUrl = "https://www.youtube.com/watch?v=$videoId"
 
   # Create a safe filename from the title
   $filename = $title -replace '[^a-zA-Z0-9_]+', '-'
   $filename = "$isoDate-$filename.md"
   $filepath = Join-Path $OutputDir $filename
+
+  # Skip videos already linked from another event page (e.g. a stream added to a Meetup event)
+  $linkedFrom = Get-ChildItem -Path $OutputDir -Filter '*.md' |
+    Where-Object Name -ne $filename |
+    Select-String -Pattern "^youtube:.*(?<![\w-])$([regex]::Escape($videoId))(?![\w-])" -List
+  if ($linkedFrom) {
+    Write-Host "Skipping video already linked from: $($linkedFrom[0].Filename)"
+    continue
+  }
 
   if ((-not $Force) -and (Test-Path $filepath)) {
     Write-Host "Skipping existing file: $filename"
@@ -65,11 +73,8 @@ foreach ($item in $allVideos) {
   $markdown = @"
 ---
 title: '$($title -replace "'","''")'
-link: $videoUrl
-thumbnail: $thumbnailUrl
 date: $isoDate
-tags:
-  - previous_events
+youtube: $videoUrl
 ---
 $description
 "@

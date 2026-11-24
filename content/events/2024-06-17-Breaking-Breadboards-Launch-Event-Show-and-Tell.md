@@ -1,10 +1,7 @@
 ---
 title: 'Breaking Breadboards - Launch Event - Show and Tell'
-link: https://www.youtube.com/embed/BQSYs0KcZD8
-thumbnail: https://i.ytimg.com/vi/BQSYs0KcZD8/hqdefault.jpg
 date: 2024-05-15
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=BQSYs0KcZD8
 ---
 Breaking Breadboards is Brighton’s new space to meet those that tinker where hardware meets software. In this launch event we share some of our communities projects and get inspired by technology. Join this Show and Tell. Find out more about us on breakingbreadboards.com/
 

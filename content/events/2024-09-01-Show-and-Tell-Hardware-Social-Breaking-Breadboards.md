@@ -1,10 +1,7 @@
 ---
 title: 'Show and Tell - Hardware Social | Breaking Breadboards'
-link: https://www.youtube.com/embed/4izBDkC_rAE
-thumbnail: https://i.ytimg.com/vi/4izBDkC_rAE/hqdefault.jpg
 date: 2024-07-17
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=4izBDkC_rAE
 ---
 Breaking Breadboards is Brighton’s new space to meet those that tinker where hardware meets software. What our members talk about Telegram Control and Beer Delivery with Raspberry PI Pico W. Find out more about us at  https://breakingbreadboards.com.
 

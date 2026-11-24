@@ -76,10 +76,8 @@ foreach ($line in $lines) {
       $markdown = @"
 ---
 title: '$($title -replace "'","''")'
-link: $link
 date: $isoDate
-tags:
-  - upcoming_events
+meetup: $link
 ---
 $description
 "@

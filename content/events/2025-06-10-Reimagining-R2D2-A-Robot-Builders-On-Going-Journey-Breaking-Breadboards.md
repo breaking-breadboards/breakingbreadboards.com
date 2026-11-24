@@ -1,10 +1,7 @@
 ---
 title: 'Reimagining R2D2 A Robot Builders On Going Journey | Breaking Breadboards'
-link: https://www.youtube.com/embed/2AaTx6ydN-0
-thumbnail: https://i.ytimg.com/vi/2AaTx6ydN-0/hqdefault.jpg
 date: 2025-06-10
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=2AaTx6ydN-0
 ---
 Jon Durrant shared one of his latest robotics projects: RexP1,  a creative reimagining of the iconic R2-D2. The session offered a deep dive into the design and development process. From Raspberry Pi and Arduino to custom Game Boy mods and DIY robotics, Jon covers it all!
 

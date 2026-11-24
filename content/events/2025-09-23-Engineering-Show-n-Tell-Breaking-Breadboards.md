@@ -1,10 +1,7 @@
 ---
 title: 'Engineering Show ''n'' Tell | Breaking Breadboards'
-link: https://www.youtube.com/embed/dCP49b_qUjA
-thumbnail: https://i.ytimg.com/vi/dCP49b_qUjA/hqdefault.jpg
 date: 2025-09-23
-tags:
-  - previous_events
+youtube: https://www.youtube.com/watch?v=dCP49b_qUjA
 ---
 This Show and Tell event will feature a series of short presentations from the makers listed below.
 - Tudor James – Croquet "Simulator"
