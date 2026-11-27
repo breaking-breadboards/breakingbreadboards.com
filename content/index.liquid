@@ -58,6 +58,10 @@ layout: base.liquid
     <time datetime="{{ event.date | htmlDateString }}">{{ event.date | readableDate }}</time>:
     <a href="{{ event.url }}">{{ event.data.title }}</a>
   </h3>
+  {%- assign eventVideoId = event.data.youtube | youtubeId %}
+  {%- if eventVideoId %}
+  {% render "youtube-embed.liquid", videoId: eventVideoId %}
+  {%- endif %}
   <p>{{ event.content }}</p>
   {%- endfor -%}
 </section>
